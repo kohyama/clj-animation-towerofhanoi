@@ -2,9 +2,9 @@
 
 The code animates Tower of Hanoi in 3 ways
 
-* a terminal,
-* a gaphical window and
-* a web browser
+* on a terminal,
+* on a gaphical window and
+* on a web browser
 
 written in Clojure.
 
@@ -43,7 +43,7 @@ toh.swing=> (System/exit 0)
 ```clj
 $ lein cljsbuild once
 $ lein trampoline cljsbuild lein-repl
-; (open http://localhost:9000/toh_canvs.html with your web browser)
+; (open http://localhost:9000/toh_canvas.html with your web browser)
 ClojureScript:cljs.user> (ns toh.canvas)
 ClojureScript:toh.canvas> (display 4 50 16) ; 4 disks, 50 ms wait, unit 16 pixels
 ClojureScript:toh.canvas> (display 5 10 8) ; 5 disks, 10 ms wait, unit 8 pixels
